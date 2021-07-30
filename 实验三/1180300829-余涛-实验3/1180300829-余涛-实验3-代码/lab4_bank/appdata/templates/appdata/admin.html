@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>管理员界面</title>
+</head>
+<body>
+<span>管理员{{username}}，欢迎您</span>
+<div>
+    <form method="post" action="/bank/admin/">
+        <p>
+              <p>输入想要更改或查看权限的用户</p>
+                用户名：<input type="text" name="username"><br>
+        </p>
+        <p>
+              <p>请输入你更改的需要的权限</p>
+                权限：<input type="text" name="right"><br>
+
+        </p>
+        <p>
+               <p>请输入你更改的数据表</p>
+               数据表：<input type="text" name="table"><br>
+        </p>
+               <select id="operate" name="operate">
+                <option value="check">查看权限</option>
+                <option value="give">增加权限</option>
+                <option value="withdraw">收回权限</option>
+              </select>
+        <p>
+            <input type="submit" value="确定" />
+        </p>
+    </form>
+</div>
+<div style="white-space: pre-line">{{data}}</div>
+</body>
+</html>

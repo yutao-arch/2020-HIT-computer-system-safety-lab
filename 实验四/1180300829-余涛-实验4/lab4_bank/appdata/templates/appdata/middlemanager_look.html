@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>管理员界面</title>
+</head>
+<body>
+<div style="text-align: center">
+<span>中级管理员，欢迎您。你有处理低于100000元交易的权限</span>
+    <p>所有人的余额如下</p>
+    {% for user in currency_list %}
+    <tr><p>{{user.username}}的余额为{{user.currency}}</p>
+    </tr>
+    {% endfor %}
+</div>
+<div style="white-space: pre-line"></div>
+</body>
+</html>

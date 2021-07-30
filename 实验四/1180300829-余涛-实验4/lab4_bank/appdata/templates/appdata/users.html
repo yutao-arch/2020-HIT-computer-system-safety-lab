@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户界面</title>
+</head>
+<body>
+
+<div>
+    <form method="post" action="/bank/users/{{username}}" style="text-align: center">
+        <span>用户{{username}}，欢迎您</span>
+        <p>您可以完成以下操作：</p>
+        <p>
+              <p>金额
+                <input type="text" name="money"><br>
+              </p>
+        </p>
+        <p>
+               <p>账户余额为{{ currency }}</p>
+        </p>
+               <select id="operate" name="operate">
+                <option value="recharge">存款</option>
+                <option value="withdraw">取款</option>
+              </select>
+        <p>
+            <input type="submit" value="确定" />
+        </p>
+    </form>
+</div>
+<div style="white-space: pre-line"></div>
+</body>
+</html>

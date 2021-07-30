@@ -1,0 +1,257 @@
+show grants for zz@'localhost';        Mon Dec 21 23:40:26 2020
+show grants for xx@'localhost';        Mon Dec 21 23:44:27 2020
+show grants for yy@'localhost';        Mon Dec 21 23:44:27 2020
+show grants for zz@'localhost';        Mon Dec 21 23:44:27 2020
+revoke select(passwd) on bank.appdata_bankuser from xx@'localhost';        Mon Dec 21 23:44:54 2020
+revoke select(passwd) on bank.appdata_bankuser from yy@'localhost';        Mon Dec 21 23:44:54 2020
+revoke select(passwd) on bank.appdata_bankuser from zz@'localhost';        Mon Dec 21 23:44:54 2020
+show grants for xx@'localhost';        Mon Dec 21 23:44:57 2020
+show grants for yy@'localhost';        Mon Dec 21 23:44:57 2020
+show grants for zz@'localhost';        Mon Dec 21 23:44:57 2020
+show grants for xx@'localhost';        Tue Dec 22 00:02:31 2020
+show grants for yy@'localhost';        Tue Dec 22 00:02:31 2020
+show grants for zz@'localhost';        Tue Dec 22 00:02:31 2020
+grant update(passwd) on bank.appdata_bankuser to xx@'localhost';        Tue Dec 22 00:03:13 2020
+grant update(passwd) on bank.appdata_bankuser to yy@'localhost';        Tue Dec 22 00:03:13 2020
+grant update(passwd) on bank.appdata_bankuser to zz@'localhost';        Tue Dec 22 00:03:13 2020
+show grants for manager@'localhost';        Tue Dec 22 00:03:20 2020
+show grants for xx@'localhost';        Tue Dec 22 00:25:07 2020
+show grants for yy@'localhost';        Tue Dec 22 00:25:07 2020
+show grants for zz@'localhost';        Tue Dec 22 00:25:07 2020
+grant select(passwd) on bank.appdata_bankuser to xx@'localhost';        Tue Dec 22 00:26:20 2020
+grant select(passwd) on bank.appdata_bankuser to yy@'localhost';        Tue Dec 22 00:26:20 2020
+grant select(passwd) on bank.appdata_bankuser to zz@'localhost';        Tue Dec 22 00:26:20 2020
+show grants for xx@'localhost';        Tue Dec 22 00:26:53 2020
+show grants for yy@'localhost';        Tue Dec 22 00:26:53 2020
+show grants for zz@'localhost';        Tue Dec 22 00:26:53 2020
+show grants for xx@'localhost';        Tue Dec 22 01:27:10 2020
+show grants for yy@'localhost';        Tue Dec 22 01:27:10 2020
+show grants for zz@'localhost';        Tue Dec 22 01:27:10 2020
+revoke select(passwd) on bank.appdata_bankuser from xx@'localhost';        Tue Dec 22 01:27:21 2020
+revoke select(passwd) on bank.appdata_bankuser from yy@'localhost';        Tue Dec 22 01:27:21 2020
+revoke select(passwd) on bank.appdata_bankuser from zz@'localhost';        Tue Dec 22 01:27:21 2020
+show grants for xx@'localhost';        Tue Dec 22 01:27:24 2020
+show grants for yy@'localhost';        Tue Dec 22 01:27:24 2020
+show grants for zz@'localhost';        Tue Dec 22 01:27:24 2020
+show grants for xx@'localhost';        Tue Dec 22 01:30:39 2020
+show grants for yy@'localhost';        Tue Dec 22 01:30:39 2020
+show grants for xx@'localhost';        Tue Dec 22 01:32:08 2020
+show grants for yy@'localhost';        Tue Dec 22 01:32:08 2020
+show grants for zz@'localhost';        Tue Dec 22 01:32:08 2020
+show grants for xx@'localhost';        Tue Dec 22 01:36:40 2020
+show grants for yy@'localhost';        Tue Dec 22 01:36:40 2020
+show grants for zz@'localhost';        Tue Dec 22 01:36:40 2020
+grant select(passwd) on bank.appdata_bankuser to xx@'localhost';        Tue Dec 22 01:36:50 2020
+grant select(passwd) on bank.appdata_bankuser to yy@'localhost';        Tue Dec 22 01:36:50 2020
+grant select(passwd) on bank.appdata_bankuser to zz@'localhost';        Tue Dec 22 01:36:50 2020
+show grants for xx@'localhost';        Tue Dec 22 01:36:53 2020
+show grants for yy@'localhost';        Tue Dec 22 01:36:53 2020
+show grants for zz@'localhost';        Tue Dec 22 01:36:53 2020
+revoke select(passwd) on bank.appdata_bankuser from xx@'localhost';        Tue Dec 22 01:37:09 2020
+revoke select(passwd) on bank.appdata_bankuser from yy@'localhost';        Tue Dec 22 01:37:09 2020
+revoke select(passwd) on bank.appdata_bankuser from zz@'localhost';        Tue Dec 22 01:37:09 2020
+show grants for xx@'localhost';        Tue Dec 22 01:37:12 2020
+show grants for yy@'localhost';        Tue Dec 22 01:37:12 2020
+show grants for zz@'localhost';        Tue Dec 22 01:37:12 2020
+grant select(passwd) on bank.appdata_bankuser to xx@'localhost';        Tue Dec 22 01:37:24 2020
+grant select(passwd) on bank.appdata_bankuser to yy@'localhost';        Tue Dec 22 01:37:24 2020
+grant select(passwd) on bank.appdata_bankuser to zz@'localhost';        Tue Dec 22 01:37:24 2020
+show grants for xx@'localhost';        Tue Dec 22 01:40:29 2020
+show grants for yy@'localhost';        Tue Dec 22 01:40:29 2020
+show grants for zz@'localhost';        Tue Dec 22 01:40:29 2020
+show grants for xx@'localhost';        Tue Dec 22 01:42:24 2020
+show grants for yy@'localhost';        Tue Dec 22 01:42:24 2020
+show grants for zz@'localhost';        Tue Dec 22 01:42:24 2020
+revoke select(passwd) on bank.appdata_bankuser from xx@'localhost';        Tue Dec 22 01:42:38 2020
+revoke select(passwd) on bank.appdata_bankuser from yy@'localhost';        Tue Dec 22 01:42:38 2020
+revoke select(passwd) on bank.appdata_bankuser from zz@'localhost';        Tue Dec 22 01:42:38 2020
+show grants for xx@'localhost';        Tue Dec 22 01:42:41 2020
+show grants for yy@'localhost';        Tue Dec 22 01:42:41 2020
+show grants for zz@'localhost';        Tue Dec 22 01:42:41 2020
+grant select(passwd) on bank.appdata_bankuser to xx@'localhost';        Tue Dec 22 01:42:53 2020
+grant select(passwd) on bank.appdata_bankuser to yy@'localhost';        Tue Dec 22 01:42:53 2020
+grant select(passwd) on bank.appdata_bankuser to zz@'localhost';        Tue Dec 22 01:42:53 2020
+show grants for manager@'localhost';        Tue Dec 22 01:44:19 2020
+show grants for xx@'localhost';        Tue Dec 22 19:17:55 2020
+show grants for yy@'localhost';        Tue Dec 22 19:17:55 2020
+show grants for zz@'localhost';        Tue Dec 22 19:17:55 2020
+revoke select(passwd) on bank.appdata_bankuser from xx@'localhost';        Tue Dec 22 19:21:37 2020
+revoke select(passwd) on bank.appdata_bankuser from yy@'localhost';        Tue Dec 22 19:21:37 2020
+revoke select(passwd) on bank.appdata_bankuser from zz@'localhost';        Tue Dec 22 19:21:37 2020
+show grants for xx@'localhost';        Tue Dec 22 19:21:43 2020
+show grants for yy@'localhost';        Tue Dec 22 19:21:43 2020
+show grants for zz@'localhost';        Tue Dec 22 19:21:43 2020
+grant select(passwd) on bank.appdata_bankuser to xx@'localhost';        Tue Dec 22 19:21:51 2020
+grant select(passwd) on bank.appdata_bankuser to yy@'localhost';        Tue Dec 22 19:21:51 2020
+grant select(passwd) on bank.appdata_bankuser to zz@'localhost';        Tue Dec 22 19:21:51 2020
+show grants for xx@'localhost';        Tue Dec 22 19:21:55 2020
+show grants for yy@'localhost';        Tue Dec 22 19:21:55 2020
+show grants for zz@'localhost';        Tue Dec 22 19:21:55 2020
+show grants for xx@'localhost';        Wed Dec 23 08:09:46 2020
+show grants for yy@'localhost';        Wed Dec 23 08:09:46 2020
+show grants for zz@'localhost';        Wed Dec 23 08:09:46 2020
+revoke select(passwd) on bank.appdata_bankuser from xx@'localhost';        Wed Dec 23 08:10:04 2020
+revoke select(passwd) on bank.appdata_bankuser from yy@'localhost';        Wed Dec 23 08:10:04 2020
+revoke select(passwd) on bank.appdata_bankuser from zz@'localhost';        Wed Dec 23 08:10:04 2020
+show grants for xx@'localhost';        Wed Dec 23 08:10:09 2020
+show grants for yy@'localhost';        Wed Dec 23 08:10:09 2020
+show grants for zz@'localhost';        Wed Dec 23 08:10:09 2020
+show grants for xx@'localhost';        Wed Dec 23 08:11:22 2020
+show grants for yy@'localhost';        Wed Dec 23 08:11:22 2020
+show grants for zz@'localhost';        Wed Dec 23 08:11:22 2020
+show grants for xx@'localhost';        Wed Dec 23 08:17:42 2020
+show grants for yy@'localhost';        Wed Dec 23 08:17:42 2020
+show grants for zz@'localhost';        Wed Dec 23 08:17:42 2020
+grant select(passwd) on bank.appdata_bankuser to xx@'localhost';        Wed Dec 23 08:18:10 2020
+grant select(passwd) on bank.appdata_bankuser to yy@'localhost';        Wed Dec 23 08:18:10 2020
+grant select(passwd) on bank.appdata_bankuser to zz@'localhost';        Wed Dec 23 08:18:10 2020
+show grants for xx@'localhost';        Wed Dec 23 08:18:22 2020
+show grants for yy@'localhost';        Wed Dec 23 08:18:22 2020
+show grants for zz@'localhost';        Wed Dec 23 08:18:22 2020
+revoke select(passwd) on bank.appdata_bankuser from xx@'localhost';        Wed Dec 23 08:18:32 2020
+revoke select(passwd) on bank.appdata_bankuser from yy@'localhost';        Wed Dec 23 08:18:32 2020
+revoke select(passwd) on bank.appdata_bankuser from zz@'localhost';        Wed Dec 23 08:18:32 2020
+show grants for xx@'localhost';        Wed Dec 23 08:18:36 2020
+show grants for yy@'localhost';        Wed Dec 23 08:18:36 2020
+show grants for zz@'localhost';        Wed Dec 23 08:18:36 2020
+show grants for xx@'localhost';        Thu Dec 24 15:08:58 2020
+show grants for yy@'localhost';        Thu Dec 24 15:08:58 2020
+show grants for zz@'localhost';        Thu Dec 24 15:08:58 2020
+revoke select(passwd) on bank.appdata_bankuser from xx@'localhost';        Thu Dec 24 15:09:09 2020
+revoke select(passwd) on bank.appdata_bankuser from yy@'localhost';        Thu Dec 24 15:09:09 2020
+revoke select(passwd) on bank.appdata_bankuser from zz@'localhost';        Thu Dec 24 15:09:09 2020
+show grants for xx@'localhost';        Thu Dec 24 15:09:11 2020
+show grants for yy@'localhost';        Thu Dec 24 15:09:11 2020
+show grants for zz@'localhost';        Thu Dec 24 15:09:11 2020
+revoke update(passwd) on bank.appdata_bankuser from xx@'localhost';        Thu Dec 24 15:09:20 2020
+revoke update(passwd) on bank.appdata_bankuser from yy@'localhost';        Thu Dec 24 15:09:20 2020
+revoke update(passwd) on bank.appdata_bankuser from zz@'localhost';        Thu Dec 24 15:09:20 2020
+show grants for xx@'localhost';        Thu Dec 24 15:09:22 2020
+show grants for yy@'localhost';        Thu Dec 24 15:09:22 2020
+show grants for zz@'localhost';        Thu Dec 24 15:09:22 2020
+show grants for xx@'localhost';        Thu Dec 24 15:12:54 2020
+show grants for yy@'localhost';        Thu Dec 24 15:12:54 2020
+show grants for zz@'localhost';        Thu Dec 24 15:12:54 2020
+revoke select(passwd) on bank.appdata_bankuser from xx@'localhost';        Thu Dec 24 15:13:10 2020
+show grants for xx@'localhost';        Thu Dec 24 15:13:15 2020
+show grants for yy@'localhost';        Thu Dec 24 15:13:15 2020
+show grants for zz@'localhost';        Thu Dec 24 15:13:15 2020
+grant select(passwd) on bank.appdata_bankuser to xx@'localhost';        Thu Dec 24 15:13:50 2020
+grant update(passwd) on bank.appdata_bankuser to xx@'localhost';        Thu Dec 24 15:13:50 2020
+show grants for xx@'localhost';        Thu Dec 24 15:13:55 2020
+show grants for yy@'localhost';        Thu Dec 24 15:13:55 2020
+show grants for zz@'localhost';        Thu Dec 24 15:13:55 2020
+revoke select(passwd),update(passwd) on bank.appdata_bankuser from xx@'localhost';        Thu Dec 24 15:14:06 2020
+show grants for xx@'localhost';        Thu Dec 24 15:14:08 2020
+show grants for yy@'localhost';        Thu Dec 24 15:14:08 2020
+show grants for zz@'localhost';        Thu Dec 24 15:14:08 2020
+grant select(passwd) on bank.appdata_bankuser to xx@'localhost';        Thu Dec 24 15:14:15 2020
+grant update(passwd) on bank.appdata_bankuser to xx@'localhost';        Thu Dec 24 15:14:15 2020
+grant select(passwd) on bank.appdata_bankuser to yy@'localhost';        Thu Dec 24 15:14:15 2020
+grant update(passwd) on bank.appdata_bankuser to yy@'localhost';        Thu Dec 24 15:14:15 2020
+grant select(passwd) on bank.appdata_bankuser to zz@'localhost';        Thu Dec 24 15:14:15 2020
+grant update(passwd) on bank.appdata_bankuser to zz@'localhost';        Thu Dec 24 15:14:15 2020
+show grants for xx@'localhost';        Thu Dec 24 15:14:20 2020
+show grants for yy@'localhost';        Thu Dec 24 15:14:20 2020
+show grants for zz@'localhost';        Thu Dec 24 15:14:20 2020
+show grants for xx@'localhost';        Thu Dec 24 15:15:19 2020
+show grants for yy@'localhost';        Thu Dec 24 15:15:19 2020
+show grants for zz@'localhost';        Thu Dec 24 15:15:19 2020
+revoke select(passwd) on bank.appdata_bankuser from xx@'localhost';        Thu Dec 24 15:15:27 2020
+revoke update(passwd) on bank.appdata_bankuser from xx@'localhost';        Thu Dec 24 15:15:27 2020
+revoke select(passwd) on bank.appdata_bankuser from yy@'localhost';        Thu Dec 24 15:15:27 2020
+revoke update(passwd) on bank.appdata_bankuser from yy@'localhost';        Thu Dec 24 15:15:27 2020
+revoke select(passwd) on bank.appdata_bankuser from zz@'localhost';        Thu Dec 24 15:15:27 2020
+revoke update(passwd) on bank.appdata_bankuser from zz@'localhost';        Thu Dec 24 15:15:27 2020
+show grants for xx@'localhost';        Thu Dec 24 15:15:29 2020
+show grants for yy@'localhost';        Thu Dec 24 15:15:29 2020
+show grants for zz@'localhost';        Thu Dec 24 15:15:29 2020
+show grants for xx@'localhost';        Fri Dec 25 15:54:16 2020
+show grants for yy@'localhost';        Fri Dec 25 15:54:16 2020
+show grants for zz@'localhost';        Fri Dec 25 15:54:16 2020
+show grants for xx@'localhost';        Sat Dec 26 15:45:07 2020
+show grants for yy@'localhost';        Sat Dec 26 15:45:07 2020
+show grants for zz@'localhost';        Sat Dec 26 15:45:07 2020
+show grants for manager@'localhost';        Sat Dec 26 15:45:24 2020
+show grants for manager@'localhost';        Sat Dec 26 15:46:00 2020
+grant select(passwd) on bank.appdata_bankuser to xx@'localhost';        Sat Dec 26 15:46:09 2020
+grant select(passwd) on bank.appdata_bankuser to yy@'localhost';        Sat Dec 26 15:46:09 2020
+grant select(passwd) on bank.appdata_bankuser to zz@'localhost';        Sat Dec 26 15:46:09 2020
+show grants for xx@'localhost';        Sat Dec 26 15:46:12 2020
+show grants for yy@'localhost';        Sat Dec 26 15:46:12 2020
+show grants for zz@'localhost';        Sat Dec 26 15:46:12 2020
+revoke select(passwd) on bank.appdata_bankuser from xx@'localhost';        Sat Dec 26 15:46:17 2020
+revoke select(passwd) on bank.appdata_bankuser from yy@'localhost';        Sat Dec 26 15:46:17 2020
+revoke select(passwd) on bank.appdata_bankuser from zz@'localhost';        Sat Dec 26 15:46:17 2020
+show grants for manager@'localhost';        Sat Dec 26 15:46:19 2020
+show grants for manager@'localhost';        Sat Dec 26 15:47:30 2020
+show grants for xx@'localhost';        Sat Dec 26 15:48:49 2020
+show grants for xx@'localhost';        Sat Dec 26 15:49:31 2020
+show grants for yy@'localhost';        Sat Dec 26 15:49:31 2020
+show grants for zz@'localhost';        Sat Dec 26 15:49:31 2020
+grant select(passwd) on bank.appdata_bankuser to xx@'localhost';        Sat Dec 26 15:50:31 2020
+show grants for xx@'localhost';        Sat Dec 26 15:51:21 2020
+show grants for yy@'localhost';        Sat Dec 26 15:51:21 2020
+show grants for zz@'localhost';        Sat Dec 26 15:51:21 2020
+grant select(passwd) on bank.appdata_bankuser to yy@'localhost';        Sat Dec 26 15:53:01 2020
+grant select(passwd) on bank.appdata_bankuser to zz@'localhost';        Sat Dec 26 15:53:01 2020
+show grants for xx@'localhost';        Sat Dec 26 15:54:28 2020
+show grants for yy@'localhost';        Sat Dec 26 15:54:28 2020
+show grants for zz@'localhost';        Sat Dec 26 15:54:28 2020
+revoke select(passwd) on bank.appdata_bankuser from xx@'localhost';        Sat Dec 26 15:55:24 2020
+show grants for xx@'localhost';        Sat Dec 26 15:55:59 2020
+show grants for yy@'localhost';        Sat Dec 26 15:55:59 2020
+show grants for zz@'localhost';        Sat Dec 26 15:55:59 2020
+revoke select(passwd) on bank.appdata_bankuser from yy@'localhost';        Sat Dec 26 15:56:47 2020
+revoke select(passwd) on bank.appdata_bankuser from zz@'localhost';        Sat Dec 26 15:56:47 2020
+show grants for xx@'localhost';        Sat Dec 26 15:57:18 2020
+show grants for yy@'localhost';        Sat Dec 26 15:57:18 2020
+show grants for zz@'localhost';        Sat Dec 26 15:57:18 2020
+grant select(passwd) on bank.appdata_bankuser to xx@'localhost';        Sat Dec 26 15:58:20 2020
+grant update(passwd) on bank.appdata_bankuser to xx@'localhost';        Sat Dec 26 15:58:20 2020
+show grants for xx@'localhost';        Sat Dec 26 15:59:03 2020
+show grants for yy@'localhost';        Sat Dec 26 15:59:03 2020
+show grants for zz@'localhost';        Sat Dec 26 15:59:03 2020
+revoke select(passwd) on bank.appdata_bankuser from xx@'localhost';        Sat Dec 26 15:59:41 2020
+revoke update(passwd) on bank.appdata_bankuser from xx@'localhost';        Sat Dec 26 15:59:41 2020
+show grants for xx@'localhost';        Sat Dec 26 16:00:19 2020
+show grants for yy@'localhost';        Sat Dec 26 16:00:19 2020
+show grants for zz@'localhost';        Sat Dec 26 16:00:19 2020
+grant select(passwd) on bank.appdata_bankuser to xx@'localhost';        Sat Dec 26 16:01:46 2020
+grant update(passwd) on bank.appdata_bankuser to xx@'localhost';        Sat Dec 26 16:01:46 2020
+grant select(passwd) on bank.appdata_bankuser to yy@'localhost';        Sat Dec 26 16:01:46 2020
+grant update(passwd) on bank.appdata_bankuser to yy@'localhost';        Sat Dec 26 16:01:46 2020
+show grants for xx@'localhost';        Sat Dec 26 16:02:25 2020
+show grants for yy@'localhost';        Sat Dec 26 16:02:25 2020
+show grants for zz@'localhost';        Sat Dec 26 16:02:25 2020
+revoke select(passwd) on bank.appdata_bankuser from xx@'localhost';        Sat Dec 26 16:03:05 2020
+revoke update(passwd) on bank.appdata_bankuser from xx@'localhost';        Sat Dec 26 16:03:05 2020
+revoke select(passwd) on bank.appdata_bankuser from yy@'localhost';        Sat Dec 26 16:03:05 2020
+revoke update(passwd) on bank.appdata_bankuser from yy@'localhost';        Sat Dec 26 16:03:05 2020
+show grants for xx@'localhost';        Sat Dec 26 16:03:44 2020
+show grants for yy@'localhost';        Sat Dec 26 16:03:44 2020
+show grants for zz@'localhost';        Sat Dec 26 16:03:44 2020
+grant select(passwd) on bank.appdata_bankuser to xx@'localhost';        Sat Dec 26 16:08:38 2020
+grant update(passwd) on bank.appdata_bankuser to xx@'localhost';        Sat Dec 26 16:08:38 2020
+grant select(username) on bank.appdata_bankuser to xx@'localhost';        Sat Dec 26 16:08:38 2020
+grant update(username) on bank.appdata_bankuser to xx@'localhost';        Sat Dec 26 16:08:38 2020
+grant select(passwd) on bank.appdata_bankuser to yy@'localhost';        Sat Dec 26 16:08:38 2020
+grant update(passwd) on bank.appdata_bankuser to yy@'localhost';        Sat Dec 26 16:08:38 2020
+grant select(username) on bank.appdata_bankuser to yy@'localhost';        Sat Dec 26 16:08:38 2020
+grant update(username) on bank.appdata_bankuser to yy@'localhost';        Sat Dec 26 16:08:38 2020
+grant select(passwd) on bank.appdata_bankuser to zz@'localhost';        Sat Dec 26 16:08:38 2020
+grant update(passwd) on bank.appdata_bankuser to zz@'localhost';        Sat Dec 26 16:08:38 2020
+grant select(username) on bank.appdata_bankuser to zz@'localhost';        Sat Dec 26 16:08:38 2020
+grant update(username) on bank.appdata_bankuser to zz@'localhost';        Sat Dec 26 16:08:38 2020
+show grants for xx@'localhost';        Sat Dec 26 16:08:40 2020
+show grants for yy@'localhost';        Sat Dec 26 16:08:40 2020
+show grants for zz@'localhost';        Sat Dec 26 16:08:40 2020
+grant select(currency) on bank.appdata_bankuser to xx@'localhost';        Sat Dec 26 16:09:12 2020
+grant select(currency) on bank.appdata_bankuser to yy@'localhost';        Sat Dec 26 16:09:12 2020
+grant select(currency) on bank.appdata_bankuser to zz@'localhost';        Sat Dec 26 16:09:12 2020
+grant select(isadmin) on bank.appdata_bankuser to xx@'localhost';        Sat Dec 26 16:09:27 2020
+grant select(isadmin) on bank.appdata_bankuser to yy@'localhost';        Sat Dec 26 16:09:27 2020
+grant select(isadmin) on bank.appdata_bankuser to zz@'localhost';        Sat Dec 26 16:09:27 2020
+show grants for xx@'localhost';        Sat Dec 26 16:09:29 2020
+show grants for yy@'localhost';        Sat Dec 26 16:09:29 2020
+show grants for zz@'localhost';        Sat Dec 26 16:09:29 2020
